@@ -2559,7 +2559,7 @@ public class DatabaseChangelog2 {
         plugin.setDatasourceComponent("RestAPIDatasourceForm");
         plugin.setResponseType(Plugin.ResponseType.JSON);
         plugin.setIconLocation("https://s3.us-east-2.amazonaws.com/assets.appsmith.com/logo/graphql.svg");
-        plugin.setDocumentationLink("https://docs.appsmith.com/reference/datasources/querying-graphql-db");
+        plugin.setDocumentationLink("https://docs.resolvebuilder.com/reference/datasources/querying-graphql-db");
         plugin.setDefaultInstall(true);
         try {
             mongoTemplate.insert(plugin);

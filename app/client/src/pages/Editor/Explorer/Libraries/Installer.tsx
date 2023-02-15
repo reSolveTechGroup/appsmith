@@ -326,7 +326,7 @@ const SectionDivider = styled(MenuDivider)`
 
 const EXT_LINK = {
   learnMore:
-    "https://docs.appsmith.com/core-concepts/writing-code/ext-libraries",
+    "https://docs.resolvebuilder.com/core-concepts/writing-code/ext-libraries",
   reportIssue: "https://github.com/appsmithorg/appsmith/issues/19037",
   jsDelivr: "https://www.jsdelivr.com/",
 };

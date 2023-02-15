@@ -96,7 +96,7 @@ function LeftPaneBottomSection() {
         }
         icon="book"
         onSelect={() => {
-          window.open("https://docs.appsmith.com/", "_blank");
+          window.open("https://docs.resolvebuilder.com/", "_blank");
         }}
         text={createMessage(DOCUMENTATION)}
       />

@@ -5,5 +5,5 @@ LIMIT 10
 RETURN user
 
 // Use widget data in a query using {{ widgetName.property }}. To understand more, please check out:
-// https://docs.appsmith.com/core-concepts/capturing-data-write
+// https://docs.resolvebuilder.com/core-concepts/capturing-data-write
 // Read more at https://www.arangodb.com/docs/stable/aql/

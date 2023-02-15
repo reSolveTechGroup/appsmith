@@ -141,7 +141,7 @@ export const GetNavigationMenuData = ({
         },
         {
           text: "Documentation",
-          onClick: () => openExternalLink("https://docs.appsmith.com/"),
+          onClick: () => openExternalLink("https://docs.resolvebuilder.com/"),
           type: MenuTypes.MENU,
           isVisible: true,
           isOpensNewWindow: true,

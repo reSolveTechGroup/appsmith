@@ -38,7 +38,7 @@ describe("Tests for git deploy modal", () => {
         behindCount: 0,
         remoteBranch: "refs/remotes/origin/master",
         discardDocUrl:
-          "https://docs.appsmith.com/core-concepts/version-control-with-git/pull-and-sync#discard-and-pull-changes",
+          "https://docs.resolvebuilder.com/core-concepts/version-control-with-git/pull-and-sync#discard-and-pull-changes",
       }),
     );
     const diffText = component.getByText("1 library modified");

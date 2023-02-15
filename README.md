@@ -18,7 +18,7 @@
 <img alt="GitHub commit activity" src="https://img.shields.io/github/commit-activity/m/appsmithorg/appsmith?color=00FF0&style=for-the-badge">
 </a>
 
-<a href="https://docs.appsmith.com/getting-started/setup/installation-guides/docker?utm_source=github&utm_medium=organic&utm_campaign=readme&utm_content=badge">
+<a href="https://docs.resolvebuilder.com/getting-started/setup/installation-guides/docker?utm_source=github&utm_medium=organic&utm_campaign=readme&utm_content=badge">
 <img src="https://img.shields.io/docker/pulls/appsmith/appsmith-server?color=4591df&style=for-the-badge">
 </a>
 </p>
@@ -40,40 +40,40 @@
 
 ### 1. Build your UI
 
-Build your UI with our drag and drop UI builder. Use 45+ pre-built, customizable widgets including tables, charts, lists, modals, forms, and more. [Docs](https://docs.appsmith.com/core-concepts/dynamic-ui?utm_source=github&utm_medium=organic&utm_campaign=readme)
+Build your UI with our drag and drop UI builder. Use 45+ pre-built, customizable widgets including tables, charts, lists, modals, forms, and more. [Docs](https://docs.resolvebuilder.com/core-concepts/dynamic-ui?utm_source=github&utm_medium=organic&utm_campaign=readme)
 
 <p align="center">
-<a href="https://docs.appsmith.com/core-concepts/connecting-to-data-sources?utm_source=github&utm_medium=organic&utm_campaign=readme">
+<a href="https://docs.resolvebuilder.com/core-concepts/connecting-to-data-sources?utm_source=github&utm_medium=organic&utm_campaign=readme">
 <img alt="connect-data" src="static/gifs/Build-UI.gif" />
 </a>
 </p>
 
 ### 2. Connect to your data
 
-Connect to your data with our connectors: databases (PostgresQL, MongoDB, Amazon S3, and many more), SaaS providers (like Google Sheets, Airtable, Twilio) or any GraphQL/REST API. [Docs](https://docs.appsmith.com/core-concepts/connecting-to-data-sources?utm_source=github&utm_medium=organic&utm_campaign=readme)
+Connect to your data with our connectors: databases (PostgresQL, MongoDB, Amazon S3, and many more), SaaS providers (like Google Sheets, Airtable, Twilio) or any GraphQL/REST API. [Docs](https://docs.resolvebuilder.com/core-concepts/connecting-to-data-sources?utm_source=github&utm_medium=organic&utm_campaign=readme)
 
 <p align="center">
-<a href="https://docs.appsmith.com/core-concepts/connecting-to-data-sources?utm_source=github&utm_medium=organic&utm_campaign=readme">
+<a href="https://docs.resolvebuilder.com/core-concepts/connecting-to-data-sources?utm_source=github&utm_medium=organic&utm_campaign=readme">
 <img alt="connect-data" src="static/gifs/Connect-Data.gif" />
 </a>
 </p>
 
 ### 3. Connect the data to the UI
 
-Connect the data to the UI by configuring the components. Where needed, you can use the Javascript IDE to create more advanced features and data transformations - the sky is the limit! [Docs](https://docs.appsmith.com/core-concepts/connecting-to-data-sources/querying-a-database?utm_source=github&utm_medium=organic&utm_campaign=readme)
+Connect the data to the UI by configuring the components. Where needed, you can use the Javascript IDE to create more advanced features and data transformations - the sky is the limit! [Docs](https://docs.resolvebuilder.com/core-concepts/connecting-to-data-sources/querying-a-database?utm_source=github&utm_medium=organic&utm_campaign=readme)
 
 <p align="center">
-<a href="https://docs.appsmith.com/core-concepts/connecting-to-data-sources?utm_source=github&utm_medium=organic&utm_campaign=readme">
+<a href="https://docs.resolvebuilder.com/core-concepts/connecting-to-data-sources?utm_source=github&utm_medium=organic&utm_campaign=readme">
 <img alt="connect-data" src="static/gifs/Bind-Data.gif" />
 </a>
 </p>
 
 ### 4. Deploy your app
 
-Deploy your app on our free, cloud-hosted version or to any platform of your choice - Docker, Kubernetes, AWS, DigitalOcean, Heroku, and more. [Docs](https://docs.appsmith.com/setup?utm_source=github&utm_medium=organic&utm_campaign=readme&utm_content=step4)
+Deploy your app on our free, cloud-hosted version or to any platform of your choice - Docker, Kubernetes, AWS, DigitalOcean, Heroku, and more. [Docs](https://docs.resolvebuilder.com/setup?utm_source=github&utm_medium=organic&utm_campaign=readme&utm_content=step4)
 
 <p align="center">
-<a href="https://docs.appsmith.com/core-concepts/connecting-to-data-sources?utm_source=github&utm_medium=organic&utm_campaign=readme">
+<a href="https://docs.resolvebuilder.com/core-concepts/connecting-to-data-sources?utm_source=github&utm_medium=organic&utm_campaign=readme">
 <img alt="connect-data" src="static/gifs/Share-Apps.gif" />
 </a>
 </p>
@@ -82,7 +82,7 @@ Deploy your app on our free, cloud-hosted version or to any platform of your cho
 
 Appsmith makes it easy to create powerful utility applications organized across multiple workspaces. Here are a few notable features of Appsmith. We ship new features, bug fixes, and performance improvements regularly. Read our [release notes](https://github.com/appsmithorg/appsmith/releases) to stay updated.
 
-🔥 **UI builder** with a library of [45+ widgets](https://docs.appsmith.com/reference/widgets?utm_source=github&utm_medium=organic&utm_campaign=readme) such as
+🔥 **UI builder** with a library of [45+ widgets](https://docs.resolvebuilder.com/reference/widgets?utm_source=github&utm_medium=organic&utm_campaign=readme) such as
 
 - Tables
 - Charts
@@ -120,7 +120,7 @@ Appsmith makes it easy to create powerful utility applications organized across 
 
 ⚙️ **Access control** available to assign different roles to different team members while sharing the app. Appsmith implements RBAC by assigning a set of permissions to different user roles. These permissions determine the actions users can take on the platform. You can allow external users to access applications built using Appsmith by inviting them to the workspace.
 
-🔑 [**Solid 256-bit encryption**](https://docs.appsmith.com/security?utm_source=github&utm_medium=organic&utm_campaign=readme). Appsmith apps are secure by default. All connections are TLS-encrypted, and credentials are encrypted with AES-256 so we can't see any of your data. For added security, try our [self-hosted options](https://docs.appsmith.com/setup?utm_source=github&utm_medium=organic&utm_campaign=readme&utm_content=features).
+🔑 [**Solid 256-bit encryption**](https://docs.resolvebuilder.com/security?utm_source=github&utm_medium=organic&utm_campaign=readme). Appsmith apps are secure by default. All connections are TLS-encrypted, and credentials are encrypted with AES-256 so we can't see any of your data. For added security, try our [self-hosted options](https://docs.resolvebuilder.com/setup?utm_source=github&utm_medium=organic&utm_campaign=readme&utm_content=features).
 
 [![Watch the video](https://img.youtube.com/vi/Dxe_NzdGzL4/maxresdefault.jpg)](https://youtu.be/Dxe_NzdGzL4)
 
@@ -129,7 +129,7 @@ Appsmith makes it easy to create powerful utility applications organized across 
 Issues are inevitable. When you have one, our entire team and our active developer community is around to help.<br>
 
 💬 Talk to us on [Discord](https://discord.gg/rBTTVJp)<br>
-📄 Find a solution in our [Documentation](https://docs.appsmith.com?utm_source=github&utm_medium=organic&utm_campaign=readme)<br>
+📄 Find a solution in our [Documentation](https://docs.resolvebuilder.com?utm_source=github&utm_medium=organic&utm_campaign=readme)<br>
 ⚠️ Open an issue right here on [GitHub](https://github.com/appsmithorg/appsmith/issues/new/choose)<br>
 👾 Ask for help on our [Forum](https://community.appsmith.com)<br>
 💡Use our learning resources: [Templates](https://www.appsmith.com/templates?utm_source=github&utm_medium=organic&utm_campaign=readme&utm_content=support), [Tutorials](https://www.appsmith.com/blog-categories/tutorial?utm_source=github&utm_medium=organic&utm_campaign=readme), and [Videos](https://www.youtube.com/appsmith)<br>
@@ -140,13 +140,13 @@ While you can always start building apps right away using the [cloud-hosted vers
 
 | Cloud Provider                                                                                                                 | Documentation                                                                                                                                                    |
 | ------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)                   | [Local/Cloud - Docs](https://docs.appsmith.com/getting-started/setup/installation-guides/docker?utm_source=github&utm_medium=organic&utm_campaign=readme)        |
-| ![Kubernetes](https://img.shields.io/badge/kubernetes-%23326ce5.svg?style=for-the-badge&logo=kubernetes&logoColor=white)       | [K8's with Helm Charts](https://docs.appsmith.com/getting-started/setup/installation-guides/kubernetes?utm_source=github&utm_medium=organic&utm_campaign=readme) |
-| ![DigitalOcean](https://img.shields.io/badge/DigitalOcean-%230167ff.svg?style=for-the-badge&logo=digitalOcean&logoColor=white) | [One-Click Install](https://docs.appsmith.com/getting-started/setup/installation-guides/digitalocean?utm_source=github&utm_medium=organic&utm_campaign=readme)   |
-| ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white)                     | [AWS ECS - Docs](https://docs.appsmith.com/getting-started/setup/installation-guides/aws-ecs?utm_source=github&utm_medium=organic&utm_campaign=readme)           |
-| ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white)                     | [AWS AMI - Docs](https://docs.appsmith.com/getting-started/setup/installation-guides/aws-ami?utm_source=github&utm_medium=organic&utm_campaign=readme)           |
-| ![Heroku](https://img.shields.io/badge/heroku-%23430098.svg?style=for-the-badge&logo=heroku&logoColor=white)                   | [One-Click Install](https://docs.appsmith.com/getting-started/setup/installation-guides/heroku?utm_source=github&utm_medium=organic&utm_campaign=readme)         |
-| ![Ansible](https://img.shields.io/badge/ansible-%231A1918.svg?style=for-the-badge&logo=ansible&logoColor=white)                | [Docs](https://docs.appsmith.com/getting-started/setup/installation-guides/ansible?utm_source=github&utm_medium=organic&utm_campaign=readme)                     |
+| ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)                   | [Local/Cloud - Docs](https://docs.resolvebuilder.com/getting-started/setup/installation-guides/docker?utm_source=github&utm_medium=organic&utm_campaign=readme)        |
+| ![Kubernetes](https://img.shields.io/badge/kubernetes-%23326ce5.svg?style=for-the-badge&logo=kubernetes&logoColor=white)       | [K8's with Helm Charts](https://docs.resolvebuilder.com/getting-started/setup/installation-guides/kubernetes?utm_source=github&utm_medium=organic&utm_campaign=readme) |
+| ![DigitalOcean](https://img.shields.io/badge/DigitalOcean-%230167ff.svg?style=for-the-badge&logo=digitalOcean&logoColor=white) | [One-Click Install](https://docs.resolvebuilder.com/getting-started/setup/installation-guides/digitalocean?utm_source=github&utm_medium=organic&utm_campaign=readme)   |
+| ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white)                     | [AWS ECS - Docs](https://docs.resolvebuilder.com/getting-started/setup/installation-guides/aws-ecs?utm_source=github&utm_medium=organic&utm_campaign=readme)           |
+| ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white)                     | [AWS AMI - Docs](https://docs.resolvebuilder.com/getting-started/setup/installation-guides/aws-ami?utm_source=github&utm_medium=organic&utm_campaign=readme)           |
+| ![Heroku](https://img.shields.io/badge/heroku-%23430098.svg?style=for-the-badge&logo=heroku&logoColor=white)                   | [One-Click Install](https://docs.resolvebuilder.com/getting-started/setup/installation-guides/heroku?utm_source=github&utm_medium=organic&utm_campaign=readme)         |
+| ![Ansible](https://img.shields.io/badge/ansible-%231A1918.svg?style=for-the-badge&logo=ansible&logoColor=white)                | [Docs](https://docs.resolvebuilder.com/getting-started/setup/installation-guides/ansible?utm_source=github&utm_medium=organic&utm_campaign=readme)                     |
 
 ## How to Contribute
 

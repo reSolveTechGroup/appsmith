@@ -67,7 +67,7 @@ describe("Repo Limit Exceeded Error Modal", function() {
       // learn more link checking
       cy.window().then((window) => {
         windowOpenSpy = cy.stub(window, "open").callsFake((url) => {
-          expect(url.startsWith("https://docs.appsmith.com/")).to.be.true;
+          expect(url.startsWith("https://docs.resolvebuilder.com/")).to.be.true;
           windowOpenSpy.restore();
         });
       });

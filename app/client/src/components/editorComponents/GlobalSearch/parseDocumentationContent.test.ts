@@ -1,7 +1,7 @@
 // eslint-disable-next-line
 import parseDocumentationContent from "./parseDocumentationContent";
 
-const expectedResult = `<h1><ais-highlight-0000000000>Security</ais-highlight-0000000000> <a class="documentation-cta" href="https://docs.appsmith.com/security" target="_blank">Open Documentation</a></h1><h2>Does Appsmith store my data? <a href="https://docs.appsmith.com/core-concepts/connecting-to-data-sources/connecting-to-databases" target="_blank">Query your database directly</a></h2>
+const expectedResult = `<h1><ais-highlight-0000000000>Security</ais-highlight-0000000000> <a class="documentation-cta" href="https://docs.resolvebuilder.com/security" target="_blank">Open Documentation</a></h1><h2>Does Appsmith store my data? <a href="https://docs.resolvebuilder.com/core-concepts/connecting-to-data-sources/connecting-to-databases" target="_blank">Query your database directly</a></h2>
 <p>No, Appsmith does not store any data returned from your API endpoints or DB queries. Appsmith only acts as a proxy layer. When you query your database/API endpoint, the Appsmith server only appends sensitive credentials before forwarding the request to your backend. The Appsmith server doesn't expose sensitive credentials to the browser because that can lead to <ais-highlight-0000000000>security</ais-highlight-0000000000> breaches. Such a routing ensures <ais-highlight-0000000000>security</ais-highlight-0000000000> of your systems and data.</p>
 <h2><ais-highlight-0000000000>Security</ais-highlight-0000000000> measures within Appsmith</h2>
 <p>Appsmith applications are secure-by-default. The <ais-highlight-0000000000>security</ais-highlight-0000000000> measures implemented for Appsmith installations are:</p>

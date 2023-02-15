@@ -10,7 +10,7 @@ disable_telemetry="$5"
 
 cat << EOF
 # Read our documentation on how to configure these features
-# https://docs.appsmith.com/v/v1.2.1/setup/docker#enabling-services-for-self-hosting
+# https://docs.resolvebuilder.com/v/v1.2.1/setup/docker#enabling-services-for-self-hosting
 
 # ***** Email **********
 APPSMITH_MAIL_ENABLED=false

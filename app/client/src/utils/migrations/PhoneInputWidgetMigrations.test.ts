@@ -133,7 +133,7 @@ const oldDSL = {
           isDerived: false,
           label: "action",
           onClick:
-            "{{currentRow.step === '#1' ? showAlert('Done', 'success') : currentRow.step === '#2' ? navigateTo('https://docs.appsmith.com/core-concepts/connecting-to-data-sources/querying-a-database',undefined,'NEW_WINDOW') : navigateTo('https://docs.appsmith.com/core-concepts/displaying-data-read/display-data-tables',undefined,'NEW_WINDOW')}}",
+            "{{currentRow.step === '#1' ? showAlert('Done', 'success') : currentRow.step === '#2' ? navigateTo('https://docs.resolvebuilder.com/core-concepts/connecting-to-data-sources/querying-a-database',undefined,'NEW_WINDOW') : navigateTo('https://docs.resolvebuilder.com/core-concepts/displaying-data-read/display-data-tables',undefined,'NEW_WINDOW')}}",
           computedValue:
             "{{Table1.sanitizedTableData.map((currentRow) => ( currentRow.action))}}",
           buttonColor: "#03B365",
@@ -628,7 +628,7 @@ const newDSL = {
           isDerived: false,
           label: "action",
           onClick:
-            "{{currentRow.step === '#1' ? showAlert('Done', 'success') : currentRow.step === '#2' ? navigateTo('https://docs.appsmith.com/core-concepts/connecting-to-data-sources/querying-a-database',undefined,'NEW_WINDOW') : navigateTo('https://docs.appsmith.com/core-concepts/displaying-data-read/display-data-tables',undefined,'NEW_WINDOW')}}",
+            "{{currentRow.step === '#1' ? showAlert('Done', 'success') : currentRow.step === '#2' ? navigateTo('https://docs.resolvebuilder.com/core-concepts/connecting-to-data-sources/querying-a-database',undefined,'NEW_WINDOW') : navigateTo('https://docs.resolvebuilder.com/core-concepts/displaying-data-read/display-data-tables',undefined,'NEW_WINDOW')}}",
           computedValue:
             "{{Table1.sanitizedTableData.map((currentRow) => ( currentRow.action))}}",
           buttonColor: "#03B365",
@@ -1124,7 +1124,7 @@ const oldDSLWithDialCode = {
           isDerived: false,
           label: "action",
           onClick:
-            "{{currentRow.step === '#1' ? showAlert('Done', 'success') : currentRow.step === '#2' ? navigateTo('https://docs.appsmith.com/core-concepts/connecting-to-data-sources/querying-a-database',undefined,'NEW_WINDOW') : navigateTo('https://docs.appsmith.com/core-concepts/displaying-data-read/display-data-tables',undefined,'NEW_WINDOW')}}",
+            "{{currentRow.step === '#1' ? showAlert('Done', 'success') : currentRow.step === '#2' ? navigateTo('https://docs.resolvebuilder.com/core-concepts/connecting-to-data-sources/querying-a-database',undefined,'NEW_WINDOW') : navigateTo('https://docs.resolvebuilder.com/core-concepts/displaying-data-read/display-data-tables',undefined,'NEW_WINDOW')}}",
           computedValue:
             "{{Table1.sanitizedTableData.map((currentRow) => ( currentRow.action))}}",
           buttonColor: "#03B365",
@@ -1620,7 +1620,7 @@ const expectedDSLWithDefaultDialCode = {
           isDerived: false,
           label: "action",
           onClick:
-            "{{currentRow.step === '#1' ? showAlert('Done', 'success') : currentRow.step === '#2' ? navigateTo('https://docs.appsmith.com/core-concepts/connecting-to-data-sources/querying-a-database',undefined,'NEW_WINDOW') : navigateTo('https://docs.appsmith.com/core-concepts/displaying-data-read/display-data-tables',undefined,'NEW_WINDOW')}}",
+            "{{currentRow.step === '#1' ? showAlert('Done', 'success') : currentRow.step === '#2' ? navigateTo('https://docs.resolvebuilder.com/core-concepts/connecting-to-data-sources/querying-a-database',undefined,'NEW_WINDOW') : navigateTo('https://docs.resolvebuilder.com/core-concepts/displaying-data-read/display-data-tables',undefined,'NEW_WINDOW')}}",
           computedValue:
             "{{Table1.sanitizedTableData.map((currentRow) => ( currentRow.action))}}",
           buttonColor: "#03B365",
@@ -2116,7 +2116,7 @@ const oldDSLWithDialCode2 = {
           isDerived: false,
           label: "action",
           onClick:
-            "{{currentRow.step === '#1' ? showAlert('Done', 'success') : currentRow.step === '#2' ? navigateTo('https://docs.appsmith.com/core-concepts/connecting-to-data-sources/querying-a-database',undefined,'NEW_WINDOW') : navigateTo('https://docs.appsmith.com/core-concepts/displaying-data-read/display-data-tables',undefined,'NEW_WINDOW')}}",
+            "{{currentRow.step === '#1' ? showAlert('Done', 'success') : currentRow.step === '#2' ? navigateTo('https://docs.resolvebuilder.com/core-concepts/connecting-to-data-sources/querying-a-database',undefined,'NEW_WINDOW') : navigateTo('https://docs.resolvebuilder.com/core-concepts/displaying-data-read/display-data-tables',undefined,'NEW_WINDOW')}}",
           computedValue:
             "{{Table1.sanitizedTableData.map((currentRow) => ( currentRow.action))}}",
           buttonColor: "#03B365",
@@ -2612,7 +2612,7 @@ const expectedDSLWithDefaultDialCode2 = {
           isDerived: false,
           label: "action",
           onClick:
-            "{{currentRow.step === '#1' ? showAlert('Done', 'success') : currentRow.step === '#2' ? navigateTo('https://docs.appsmith.com/core-concepts/connecting-to-data-sources/querying-a-database',undefined,'NEW_WINDOW') : navigateTo('https://docs.appsmith.com/core-concepts/displaying-data-read/display-data-tables',undefined,'NEW_WINDOW')}}",
+            "{{currentRow.step === '#1' ? showAlert('Done', 'success') : currentRow.step === '#2' ? navigateTo('https://docs.resolvebuilder.com/core-concepts/connecting-to-data-sources/querying-a-database',undefined,'NEW_WINDOW') : navigateTo('https://docs.resolvebuilder.com/core-concepts/displaying-data-read/display-data-tables',undefined,'NEW_WINDOW')}}",
           computedValue:
             "{{Table1.sanitizedTableData.map((currentRow) => ( currentRow.action))}}",
           buttonColor: "#03B365",

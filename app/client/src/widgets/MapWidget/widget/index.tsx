@@ -424,7 +424,7 @@ class MapWidget extends BaseWidget<MapWidgetProps, WidgetState> {
             <p>
               {"See our"}
               <a
-                href="https://docs.appsmith.com/v/v1.2.1/setup/docker/google-maps"
+                href="https://docs.resolvebuilder.com/v/v1.2.1/setup/docker/google-maps"
                 rel="noopener noreferrer"
                 target="_blank"
               >

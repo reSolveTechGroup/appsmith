@@ -104,7 +104,7 @@ public class InstanceConfig implements ApplicationListener<ApplicationReadyEvent
             // Example, we expect that in v1.9.2, all instances will have been migrated to instanceSchemaVer 2
             case 1:
                 versions.add("v1.9.2");
-                docs.add("https://docs.appsmith.com/help-and-support/troubleshooting-guide/deployment-errors#server-shuts-down-with-schema-mismatch-error");
+                docs.add("https://docs.resolvebuilder.com/help-and-support/troubleshooting-guide/deployment-errors#server-shuts-down-with-schema-mismatch-error");
             default:
         }
 

@@ -33,7 +33,7 @@ export const entityDefinitions = {
           "!doc":
             "The user's geo location information. Only available when requested",
           "!url":
-            "https://docs.appsmith.com/v/v1.2.1/framework-reference/geolocation",
+            "https://docs.resolvebuilder.com/v/v1.2.1/framework-reference/geolocation",
           getCurrentPosition:
             "fn(onSuccess: fn() -> void, onError: fn() -> void, options: object) -> void",
           watchPosition: "fn(options: object) -> void",
@@ -58,7 +58,7 @@ export const entityDefinitions = {
     return {
       "!doc":
         "Actions allow you to connect your widgets to your backend data in a secure manner.",
-      "!url": "https://docs.appsmith.com/v/v1.2.1/framework-reference/run",
+      "!url": "https://docs.resolvebuilder.com/v/v1.2.1/framework-reference/run",
       isLoading: "bool",
       data,
       responseMeta: {
@@ -72,28 +72,28 @@ export const entityDefinitions = {
   AUDIO_WIDGET: {
     "!doc":
       "Audio widget can be used for playing a variety of audio formats like MP3, AAC etc.",
-    "!url": "https://docs.appsmith.com/widget-reference/audio",
+    "!url": "https://docs.resolvebuilder.com/widget-reference/audio",
     playState: "number",
     autoPlay: "bool",
   },
   CONTAINER_WIDGET: {
     "!doc":
       "Containers are used to group widgets together to form logical higher order widgets. Containers let you organize your page better and move all the widgets inside them together.",
-    "!url": "https://docs.appsmith.com/widget-reference/container",
+    "!url": "https://docs.resolvebuilder.com/widget-reference/container",
     backgroundColor: {
       "!type": "string",
-      "!url": "https://docs.appsmith.com/widget-reference/container",
+      "!url": "https://docs.resolvebuilder.com/widget-reference/container",
     },
     isVisible: isVisible,
   },
   INPUT_WIDGET: {
     "!doc":
       "An input text field is used to capture a users textual input such as their names, numbers, emails etc. Inputs are used in forms and can have custom validations.",
-    "!url": "https://docs.appsmith.com/widget-reference/input",
+    "!url": "https://docs.resolvebuilder.com/widget-reference/input",
     text: {
       "!type": "string",
       "!doc": "The text value of the input",
-      "!url": "https://docs.appsmith.com/widget-reference/input",
+      "!url": "https://docs.resolvebuilder.com/widget-reference/input",
     },
     isValid: "bool",
     isVisible: isVisible,
@@ -110,7 +110,7 @@ export const entityDefinitions = {
   TABLE_WIDGET: (widget: any, extraDefsToDefine?: ExtraDef) => ({
     "!doc":
       "The Table is the hero widget of Appsmith. You can display data from an API in a table, trigger an action when a user selects a row and even work with large paginated data sets",
-    "!url": "https://docs.appsmith.com/widget-reference/table",
+    "!url": "https://docs.resolvebuilder.com/widget-reference/table",
     selectedRow: generateTypeDef(widget.selectedRow, extraDefsToDefine),
     selectedRows: generateTypeDef(widget.selectedRows, extraDefsToDefine),
     selectedRowIndices: generateTypeDef(widget.selectedRowIndices),
@@ -134,7 +134,7 @@ export const entityDefinitions = {
   TABLE_WIDGET_V2: (widget: any, extraDefsToDefine?: ExtraDef) => ({
     "!doc":
       "The Table is the hero widget of Appsmith. You can display data from an API in a table, trigger an action when a user selects a row and even work with large paginated data sets",
-    "!url": "https://docs.appsmith.com/widget-reference/table",
+    "!url": "https://docs.resolvebuilder.com/widget-reference/table",
     selectedRow: generateTypeDef(widget.selectedRow, extraDefsToDefine),
     selectedRows: generateTypeDef(widget.selectedRows, extraDefsToDefine),
     selectedRowIndices: generateTypeDef(widget.selectedRowIndices),
@@ -162,14 +162,14 @@ export const entityDefinitions = {
   VIDEO_WIDGET: {
     "!doc":
       "Video widget can be used for playing a variety of URLs, including file paths, YouTube, Facebook, Twitch, SoundCloud, Streamable, Vimeo, Wistia, Mixcloud, and DailyMotion.",
-    "!url": "https://docs.appsmith.com/widget-reference/video",
+    "!url": "https://docs.resolvebuilder.com/widget-reference/video",
     playState: "number",
     autoPlay: "bool",
   },
   DROP_DOWN_WIDGET: {
     "!doc":
       "Select is used to capture user input/s from a specified list of permitted inputs. A Select can capture a single choice",
-    "!url": "https://docs.appsmith.com/widget-reference/dropdown",
+    "!url": "https://docs.resolvebuilder.com/widget-reference/dropdown",
     isVisible: isVisible,
     filterText: {
       "!type": "string",
@@ -178,12 +178,12 @@ export const entityDefinitions = {
     selectedOptionValue: {
       "!type": "string",
       "!doc": "The value selected in a single select dropdown",
-      "!url": "https://docs.appsmith.com/widget-reference/dropdown",
+      "!url": "https://docs.resolvebuilder.com/widget-reference/dropdown",
     },
     selectedOptionLabel: {
       "!type": "string",
       "!doc": "The selected option label in a single select dropdown",
-      "!url": "https://docs.appsmith.com/widget-reference/dropdown",
+      "!url": "https://docs.resolvebuilder.com/widget-reference/dropdown",
     },
     isDisabled: "bool",
     options: "[$__dropdownOption__$]",
@@ -191,7 +191,7 @@ export const entityDefinitions = {
   SELECT_WIDGET: {
     "!doc":
       "Select is used to capture user input/s from a specified list of permitted inputs. A Select can capture a single choice",
-    "!url": "https://docs.appsmith.com/widget-reference/dropdown",
+    "!url": "https://docs.resolvebuilder.com/widget-reference/dropdown",
     isVisible: isVisible,
     filterText: {
       "!type": "string",
@@ -200,12 +200,12 @@ export const entityDefinitions = {
     selectedOptionValue: {
       "!type": "string",
       "!doc": "The value selected in a single select dropdown",
-      "!url": "https://docs.appsmith.com/widget-reference/dropdown",
+      "!url": "https://docs.resolvebuilder.com/widget-reference/dropdown",
     },
     selectedOptionLabel: {
       "!type": "string",
       "!doc": "The selected option label in a single select dropdown",
-      "!url": "https://docs.appsmith.com/widget-reference/dropdown",
+      "!url": "https://docs.resolvebuilder.com/widget-reference/dropdown",
     },
     isDisabled: "bool",
     options: "[$__dropdownOption__$]",
@@ -213,7 +213,7 @@ export const entityDefinitions = {
   MULTI_SELECT_WIDGET: {
     "!doc":
       "MultiSelect is used to capture user input/s from a specified list of permitted inputs. A MultiSelect captures multiple choices from a list of options",
-    "!url": "https://docs.appsmith.com/widget-reference/dropdown",
+    "!url": "https://docs.resolvebuilder.com/widget-reference/dropdown",
     isVisible: isVisible,
     filterText: {
       "!type": "string",
@@ -222,12 +222,12 @@ export const entityDefinitions = {
     selectedOptionValues: {
       "!type": "[string]",
       "!doc": "The array of values selected in a multi select dropdown",
-      "!url": "https://docs.appsmith.com/widget-reference/dropdown",
+      "!url": "https://docs.resolvebuilder.com/widget-reference/dropdown",
     },
     selectedOptionLabels: {
       "!type": "[string]",
       "!doc": "The array of selected option labels in a multi select dropdown",
-      "!url": "https://docs.appsmith.com/widget-reference/dropdown",
+      "!url": "https://docs.resolvebuilder.com/widget-reference/dropdown",
     },
     isDisabled: "bool",
     options: "[$__dropdownOption__$]",
@@ -235,7 +235,7 @@ export const entityDefinitions = {
   MULTI_SELECT_WIDGET_V2: {
     "!doc":
       "MultiSelect is used to capture user input/s from a specified list of permitted inputs. A MultiSelect captures multiple choices from a list of options",
-    "!url": "https://docs.appsmith.com/widget-reference/dropdown",
+    "!url": "https://docs.resolvebuilder.com/widget-reference/dropdown",
     isVisible: isVisible,
     filterText: {
       "!type": "string",
@@ -244,12 +244,12 @@ export const entityDefinitions = {
     selectedOptionValues: {
       "!type": "[string]",
       "!doc": "The array of values selected in a multi select dropdown",
-      "!url": "https://docs.appsmith.com/widget-reference/dropdown",
+      "!url": "https://docs.resolvebuilder.com/widget-reference/dropdown",
     },
     selectedOptionLabels: {
       "!type": "[string]",
       "!doc": "The array of selected option labels in a multi select dropdown",
-      "!url": "https://docs.appsmith.com/widget-reference/dropdown",
+      "!url": "https://docs.resolvebuilder.com/widget-reference/dropdown",
     },
     isDisabled: "bool",
     options: "[$__dropdownOption__$]",
@@ -257,21 +257,21 @@ export const entityDefinitions = {
   IMAGE_WIDGET: {
     "!doc":
       "Image widget is used to display images in your app. Images must be either a URL or a valid base64.",
-    "!url": "https://docs.appsmith.com/widget-reference/image",
+    "!url": "https://docs.resolvebuilder.com/widget-reference/image",
     image: "string",
     isVisible: isVisible,
   },
   TEXT_WIDGET: {
     "!doc":
       "‌Text widget is used to display textual information. Whether you want to display a paragraph or information or add a heading to a container, a text widget makes it easy to style and display text",
-    "!url": "https://docs.appsmith.com/widget-reference/text",
+    "!url": "https://docs.resolvebuilder.com/widget-reference/text",
     isVisible: isVisible,
     text: "string",
   },
   BUTTON_WIDGET: {
     "!doc":
       "Buttons are used to capture user intent and trigger actions based on that intent",
-    "!url": "https://docs.appsmith.com/widget-reference/button",
+    "!url": "https://docs.resolvebuilder.com/widget-reference/button",
     isVisible: isVisible,
     text: "string",
     isDisabled: "bool",
@@ -280,13 +280,13 @@ export const entityDefinitions = {
   BUTTON_GROUP_WIDGET: {
     "!doc":
       "The Button group widget represents a set of buttons in a group. Group can have simple buttons or menu buttons with drop-down items.",
-    "!url": "https://docs.appsmith.com/widget-reference/button-group",
+    "!url": "https://docs.resolvebuilder.com/widget-reference/button-group",
     isVisible: isVisible,
   },
   DATE_PICKER_WIDGET: {
     "!doc":
       "Datepicker is used to capture the date and time from a user. It can be used to filter data base on the input date range as well as to capture personal information such as date of birth",
-    "!url": "https://docs.appsmith.com/widget-reference/datepicker",
+    "!url": "https://docs.resolvebuilder.com/widget-reference/datepicker",
     isVisible: isVisible,
     selectedDate: "string",
     isDisabled: "bool",
@@ -294,7 +294,7 @@ export const entityDefinitions = {
   DATE_PICKER_WIDGET2: {
     "!doc":
       "Datepicker is used to capture the date and time from a user. It can be used to filter data base on the input date range as well as to capture personal information such as date of birth",
-    "!url": "https://docs.appsmith.com/widget-reference/datepicker",
+    "!url": "https://docs.resolvebuilder.com/widget-reference/datepicker",
     isVisible: isVisible,
     selectedDate: "string",
     formattedDate: "string",
@@ -303,7 +303,7 @@ export const entityDefinitions = {
   CHECKBOX_WIDGET: {
     "!doc":
       "Checkbox is a simple UI widget you can use when you want users to make a binary choice",
-    "!url": "https://docs.appsmith.com/widget-reference/checkbox",
+    "!url": "https://docs.resolvebuilder.com/widget-reference/checkbox",
     isVisible: isVisible,
     isChecked: "bool",
     isDisabled: "bool",
@@ -311,7 +311,7 @@ export const entityDefinitions = {
   SWITCH_WIDGET: {
     "!doc":
       "Switch is a simple UI widget you can use when you want users to make a binary choice",
-    "!url": "https://docs.appsmith.com/widget-reference/switch",
+    "!url": "https://docs.resolvebuilder.com/widget-reference/switch",
     isVisible: isVisible,
     isSwitchedOn: "bool",
     isDisabled: "bool",
@@ -319,7 +319,7 @@ export const entityDefinitions = {
   RADIO_GROUP_WIDGET: {
     "!doc":
       "Radio widget lets the user choose only one option from a predefined set of options. It is quite similar to a SingleSelect Dropdown in its functionality",
-    "!url": "https://docs.appsmith.com/widget-reference/radio",
+    "!url": "https://docs.resolvebuilder.com/widget-reference/radio",
     isVisible: isVisible,
     options: "[$__dropdownOption__$]",
     selectedOptionValue: "string",
@@ -340,7 +340,7 @@ export const entityDefinitions = {
   CHART_WIDGET: {
     "!doc":
       "Chart widget is used to view the graphical representation of your data. Chart is the go-to widget for your data visualisation needs.",
-    "!url": "https://docs.appsmith.com/widget-reference/chart",
+    "!url": "https://docs.resolvebuilder.com/widget-reference/chart",
     isVisible: isVisible,
     chartData: {
       seriesName: "string",
@@ -353,7 +353,7 @@ export const entityDefinitions = {
   FORM_WIDGET: (widget: any, extraDefsToDefine?: ExtraDef) => ({
     "!doc":
       "Form is used to capture a set of data inputs from a user. Forms are used specifically because they reset the data inputs when a form is submitted and disable submission for invalid data inputs",
-    "!url": "https://docs.appsmith.com/widget-reference/form",
+    "!url": "https://docs.resolvebuilder.com/widget-reference/form",
     isVisible: isVisible,
     data: generateTypeDef(widget.data, extraDefsToDefine),
     hasChanges: "bool",
@@ -361,7 +361,7 @@ export const entityDefinitions = {
   FORM_BUTTON_WIDGET: {
     "!doc":
       "Form button is provided by default to every form. It is used for form submission and resetting form inputs",
-    "!url": "https://docs.appsmith.com/widget-reference/form",
+    "!url": "https://docs.resolvebuilder.com/widget-reference/form",
     isVisible: isVisible,
     text: "string",
     isDisabled: "bool",
@@ -385,7 +385,7 @@ export const entityDefinitions = {
   FILE_PICKER_WIDGET: {
     "!doc":
       "Filepicker widget is used to allow users to upload files from their local machines to any cloud storage via API. Cloudinary and Amazon S3 have simple APIs for cloud storage uploads",
-    "!url": "https://docs.appsmith.com/widget-reference/filepicker",
+    "!url": "https://docs.resolvebuilder.com/widget-reference/filepicker",
     isVisible: isVisible,
     files: "[$__file__$]",
     isDisabled: "bool",
@@ -393,7 +393,7 @@ export const entityDefinitions = {
   FILE_PICKER_WIDGET_V2: {
     "!doc":
       "Filepicker widget is used to allow users to upload files from their local machines to any cloud storage via API. Cloudinary and Amazon S3 have simple APIs for cloud storage uploads",
-    "!url": "https://docs.appsmith.com/widget-reference/filepicker",
+    "!url": "https://docs.resolvebuilder.com/widget-reference/filepicker",
     isVisible: isVisible,
     files: "[$__file__$]",
     isDisabled: "bool",
@@ -401,10 +401,10 @@ export const entityDefinitions = {
   LIST_WIDGET: (widget: any, extraDefsToDefine?: ExtraDef) => ({
     "!doc":
       "Containers are used to group widgets together to form logical higher order widgets. Containers let you organize your page better and move all the widgets inside them together.",
-    "!url": "https://docs.appsmith.com/widget-reference/list",
+    "!url": "https://docs.resolvebuilder.com/widget-reference/list",
     backgroundColor: {
       "!type": "string",
-      "!url": "https://docs.appsmith.com/widget-reference/how-to-use-widgets",
+      "!url": "https://docs.resolvebuilder.com/widget-reference/how-to-use-widgets",
     },
     isVisible: isVisible,
     gridGap: "number",
@@ -416,14 +416,14 @@ export const entityDefinitions = {
   }),
   RATE_WIDGET: {
     "!doc": "Rating widget is used to display ratings in your app.",
-    "!url": "https://docs.appsmith.com/widget-reference/rate",
+    "!url": "https://docs.resolvebuilder.com/widget-reference/rate",
     isVisible: isVisible,
     value: "number",
     maxCount: "number",
   },
   IFRAME_WIDGET: (widget: any) => ({
     "!doc": "Iframe widget is used to display iframes in your app.",
-    "!url": "https://docs.appsmith.com/widget-reference/iframe",
+    "!url": "https://docs.resolvebuilder.com/widget-reference/iframe",
     isVisible: isVisible,
     source: "string",
     title: "string",
@@ -432,7 +432,7 @@ export const entityDefinitions = {
   }),
   DIVIDER_WIDGET: {
     "!doc": "Divider is a simple UI widget used as a separator",
-    "!url": "https://docs.appsmith.com/widget-reference/divider",
+    "!url": "https://docs.resolvebuilder.com/widget-reference/divider",
     isVisible: isVisible,
     orientation: "string",
     capType: "string",
@@ -444,7 +444,7 @@ export const entityDefinitions = {
   MENU_BUTTON_WIDGET: {
     "!doc":
       "Menu button widget is used to represent a set of actions in a group.",
-    "!url": "https://docs.appsmith.com/widget-reference/menu-button",
+    "!url": "https://docs.resolvebuilder.com/widget-reference/menu-button",
     isVisible: isVisible,
     label: "string",
   },
@@ -452,17 +452,17 @@ export const entityDefinitions = {
   SINGLE_SELECT_TREE_WIDGET: {
     "!doc":
       "TreeSelect is used to capture user input from a specified list of permitted inputs/Nested Inputs.",
-    "!url": "https://docs.appsmith.com/widget-reference/treeselect",
+    "!url": "https://docs.resolvebuilder.com/widget-reference/treeselect",
     isVisible: isVisible,
     selectedOptionValue: {
       "!type": "string",
       "!doc": "The value selected in a treeselect dropdown",
-      "!url": "https://docs.appsmith.com/widget-reference/treeselect",
+      "!url": "https://docs.resolvebuilder.com/widget-reference/treeselect",
     },
     selectedOptionLabel: {
       "!type": "string",
       "!doc": "The selected option label in a treeselect dropdown",
-      "!url": "https://docs.appsmith.com/widget-reference/treeselect",
+      "!url": "https://docs.resolvebuilder.com/widget-reference/treeselect",
     },
     isDisabled: "bool",
     isValid: "bool",
@@ -471,17 +471,17 @@ export const entityDefinitions = {
   MULTI_SELECT_TREE_WIDGET: {
     "!doc":
       "Multi TreeSelect is used to capture user inputs from a specified list of permitted inputs/Nested Inputs. A TreeSelect can capture a single choice as well as multiple choices",
-    "!url": "https://docs.appsmith.com/widget-reference/treeselect",
+    "!url": "https://docs.resolvebuilder.com/widget-reference/treeselect",
     isVisible: isVisible,
     selectedOptionValues: {
       "!type": "[string]",
       "!doc": "The array of values selected in a treeselect dropdown",
-      "!url": "https://docs.appsmith.com/widget-reference/treeselect",
+      "!url": "https://docs.resolvebuilder.com/widget-reference/treeselect",
     },
     selectedOptionLabels: {
       "!type": "[string]",
       "!doc": "The array of selected option labels in a treeselect dropdown",
-      "!url": "https://docs.appsmith.com/widget-reference/treeselect",
+      "!url": "https://docs.resolvebuilder.com/widget-reference/treeselect",
     },
     isDisabled: "bool",
     isValid: "bool",
@@ -490,13 +490,13 @@ export const entityDefinitions = {
   ICON_BUTTON_WIDGET: {
     "!doc":
       "Icon button widget is just an icon, along with all other button properties.",
-    "!url": "https://docs.appsmith.com/widget-reference/icon-button",
+    "!url": "https://docs.resolvebuilder.com/widget-reference/icon-button",
     isVisible: isVisible,
   },
   CHECKBOX_GROUP_WIDGET: {
     "!doc":
       "Checkbox group widget allows users to easily configure multiple checkboxes together.",
-    "!url": "https://docs.appsmith.com/widget-reference/checkbox-group",
+    "!url": "https://docs.resolvebuilder.com/widget-reference/checkbox-group",
     isVisible: isVisible,
     isDisabled: "bool",
     isValid: "bool",
@@ -505,13 +505,13 @@ export const entityDefinitions = {
   },
   STATBOX_WIDGET: {
     "!doc": "Show and highlight stats from your data sources",
-    "!url": "https://docs.appsmith.com/widget-reference/stat-box",
+    "!url": "https://docs.resolvebuilder.com/widget-reference/stat-box",
     isVisible: isVisible,
   },
   AUDIO_RECORDER_WIDGET: {
     "!doc":
       "Audio recorder widget allows users to record using their microphone, listen to the playback, and export the data to a data source.",
-    "!url": "https://docs.appsmith.com/widget-reference/recorder",
+    "!url": "https://docs.resolvebuilder.com/widget-reference/recorder",
     isVisible: isVisible,
     blobURL: "string",
     dataURL: "string",
@@ -519,20 +519,20 @@ export const entityDefinitions = {
   },
   PROGRESSBAR_WIDGET: {
     "!doc": "Progress bar is a simple UI widget used to show progress",
-    "!url": "https://docs.appsmith.com/widget-reference/progressbar",
+    "!url": "https://docs.resolvebuilder.com/widget-reference/progressbar",
     isVisible: isVisible,
     progress: "number",
   },
   SWITCH_GROUP_WIDGET: {
     "!doc":
       "Switch group widget allows users to create many switch components which can easily by used in a form",
-    "!url": "https://docs.appsmith.com/widget-reference/switch-group",
+    "!url": "https://docs.resolvebuilder.com/widget-reference/switch-group",
     selectedValues: "[string]",
   },
   CAMERA_WIDGET: {
     "!doc":
       "Camera widget allows users to take a picture or record videos through their system camera using browser permissions.",
-    "!url": "https://docs.appsmith.com/widget-reference/camera",
+    "!url": "https://docs.resolvebuilder.com/widget-reference/camera",
     imageBlobURL: "string",
     imageDataURL: "string",
     imageRawBinary: "string",
@@ -543,7 +543,7 @@ export const entityDefinitions = {
   MAP_CHART_WIDGET: {
     "!doc":
       "Map Chart widget shows the graphical representation of your data on the map.",
-    "!url": "https://docs.appsmith.com/widget-reference/map-chart",
+    "!url": "https://docs.resolvebuilder.com/widget-reference/map-chart",
     isVisible: isVisible,
     selectedDataPoint: {
       id: "string",
@@ -556,16 +556,16 @@ export const entityDefinitions = {
   INPUT_WIDGET_V2: {
     "!doc":
       "An input text field is used to capture a users textual input such as their names, numbers, emails etc. Inputs are used in forms and can have custom validations.",
-    "!url": "https://docs.appsmith.com/widget-reference/input",
+    "!url": "https://docs.resolvebuilder.com/widget-reference/input",
     text: {
       "!type": "string",
       "!doc": "The text value of the input",
-      "!url": "https://docs.appsmith.com/widget-reference/input",
+      "!url": "https://docs.resolvebuilder.com/widget-reference/input",
     },
     inputText: {
       "!type": "string",
       "!doc": "The unformatted text value of the input",
-      "!url": "https://docs.appsmith.com/widget-reference/input",
+      "!url": "https://docs.resolvebuilder.com/widget-reference/input",
     },
     isValid: "bool",
     isVisible: isVisible,
@@ -574,16 +574,16 @@ export const entityDefinitions = {
   CURRENCY_INPUT_WIDGET: {
     "!doc":
       "An input text field is used to capture a currency value. Inputs are used in forms and can have custom validations.",
-    "!url": "https://docs.appsmith.com/widget-reference/currency-input",
+    "!url": "https://docs.resolvebuilder.com/widget-reference/currency-input",
     text: {
       "!type": "string",
       "!doc": "The formatted text value of the input",
-      "!url": "https://docs.appsmith.com/widget-reference/currency-input",
+      "!url": "https://docs.resolvebuilder.com/widget-reference/currency-input",
     },
     value: {
       "!type": "number",
       "!doc": "The value of the input",
-      "!url": "https://docs.appsmith.com/widget-reference/currency-input",
+      "!url": "https://docs.resolvebuilder.com/widget-reference/currency-input",
     },
     isValid: "bool",
     isVisible: isVisible,
@@ -600,16 +600,16 @@ export const entityDefinitions = {
   PHONE_INPUT_WIDGET: {
     "!doc":
       "An input text field is used to capture a phone number. Inputs are used in forms and can have custom validations.",
-    "!url": "https://docs.appsmith.com/widget-reference/phone-input",
+    "!url": "https://docs.resolvebuilder.com/widget-reference/phone-input",
     text: {
       "!type": "string",
       "!doc": "The text value of the input",
-      "!url": "https://docs.appsmith.com/widget-reference/phone-input",
+      "!url": "https://docs.resolvebuilder.com/widget-reference/phone-input",
     },
     value: {
       "!type": "string",
       "!doc": "The unformatted text value of the input",
-      "!url": "https://docs.appsmith.com/widget-reference/phone-input",
+      "!url": "https://docs.resolvebuilder.com/widget-reference/phone-input",
     },
     isValid: "bool",
     isVisible: isVisible,
@@ -625,7 +625,7 @@ export const entityDefinitions = {
   },
   CIRCULAR_PROGRESS_WIDGET: {
     "!doc": "Circular Progress is a simple UI widget used to show progress",
-    "!url": "https://docs.appsmith.com/widget-reference/circular-progress",
+    "!url": "https://docs.resolvebuilder.com/widget-reference/circular-progress",
     isVisible: isVisible,
     progress: "number",
   },
@@ -633,7 +633,7 @@ export const entityDefinitions = {
     "!doc":
       "JSON Form widget can be used to auto-generate forms by providing a JSON source data.",
     // TODO: Update the url
-    "!url": "https://docs.appsmith.com/widget-reference",
+    "!url": "https://docs.resolvebuilder.com/widget-reference",
     formData: generateTypeDef(widget.formData),
     sourceData: generateTypeDef(widget.sourceData),
     fieldState: generateTypeDef(widget.fieldState),
@@ -642,41 +642,41 @@ export const entityDefinitions = {
   PROGRESS_WIDGET: {
     "!doc":
       "Progress indicators commonly known as spinners, express an unspecified wait time or display the length of a process.",
-    "!url": "https://docs.appsmith.com/widget-reference/progress",
+    "!url": "https://docs.resolvebuilder.com/widget-reference/progress",
     isVisible: isVisible,
     progress: "number",
   },
   DOCUMENT_VIEWER_WIDGET: {
     "!doc": "Document viewer widget is used to show documents on a page",
-    "!url": "https://docs.appsmith.com/reference/widgets/document-viewer",
+    "!url": "https://docs.resolvebuilder.com/reference/widgets/document-viewer",
     isVisible: isVisible,
     docUrl: "string",
   },
   NUMBER_SLIDER_WIDGET: {
     "!doc":
       "Number slider widget is used to capture user feedback from a range of values",
-    "!url": "https://docs.appsmith.com/widget-reference/circular-progress",
+    "!url": "https://docs.resolvebuilder.com/widget-reference/circular-progress",
     isVisible: isVisible,
     value: "number",
   },
   CATEGORY_SLIDER_WIDGET: {
     "!doc":
       "Category slider widget is used to capture user feedback from a range of categories",
-    "!url": "https://docs.appsmith.com/widget-reference/circular-progress",
+    "!url": "https://docs.resolvebuilder.com/widget-reference/circular-progress",
     isVisible: isVisible,
     value: "string",
   },
   RANGE_SLIDER_WIDGET: {
     "!doc":
       "Range slider widget is used to capture user feedback from a range of values",
-    "!url": "https://docs.appsmith.com/widget-reference/circular-progress",
+    "!url": "https://docs.resolvebuilder.com/widget-reference/circular-progress",
     isVisible: isVisible,
     start: "number",
     end: "number",
   },
   CODE_SCANNER_WIDGET: {
     "!doc": "Scan a Code",
-    "!url": "https://docs.appsmith.com/reference/widgets/code-scanner",
+    "!url": "https://docs.resolvebuilder.com/reference/widgets/code-scanner",
     isVisible: isVisible,
     isDisabled: "bool",
     value: "string",

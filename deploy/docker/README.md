@@ -9,7 +9,7 @@ You may choose to use the Appsmith cloud instance (at [app.appsmith.com](https:/
 The fastest way to get started with appsmith is using our cloud-hosted version. It's as easy as
 
 1. [Create an Account](https://app.appsmith.com/user/signup)
-2. [Docs on Building a UI](https://docs.appsmith.com/core-concepts/dynamic-ui)
+2. [Docs on Building a UI](https://docs.resolvebuilder.com/core-concepts/dynamic-ui)
 
 ## Self Host
 

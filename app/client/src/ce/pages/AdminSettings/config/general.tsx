@@ -106,7 +106,7 @@ export const APPSMITH_ALLOWED_FRAME_ANCESTORS_SETTING: Setting = {
             "Lets all domains, including malicious ones, embed your Appsmith apps. ",
           linkText: "SEE WHY THIS IS RISKY",
           link:
-            "https://docs.appsmith.com/getting-started/setup/instance-configuration/frame-ancestors#why-should-i-control-this",
+            "https://docs.resolvebuilder.com/getting-started/setup/instance-configuration/frame-ancestors#why-should-i-control-this",
         },
         label: "Allow embedding everywhere",
         value: AppsmithFrameAncestorsSetting.ALLOW_EMBEDDING_EVERYWHERE,

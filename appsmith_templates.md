@@ -23,11 +23,11 @@ Would you like to contribute your app? Just write in to akshay@appsmith.com.
 2. [Calendly in Appsmith](https://app.appsmith.com/applications/600186605b452f525458d6d2/pages/600186605b452f525458d6d4)
 
 
-> A barebones version of calendly that you can use to schedule meetings, or just play around with how you can use APIs and Appsmith to build really powerful applications. Connects to Google Calendar API, so will need you to [authorize your OAuth2 token](https://docs.appsmith.com/core-concepts/connecting-to-data-sources/connect-to-apis/authentication/oauth2-authentication).
+> A barebones version of calendly that you can use to schedule meetings, or just play around with how you can use APIs and Appsmith to build really powerful applications. Connects to Google Calendar API, so will need you to [authorize your OAuth2 token](https://docs.resolvebuilder.com/core-concepts/connecting-to-data-sources/connect-to-apis/authentication/oauth2-authentication).
 
 3. [Founder/Investor CRM](https://app.appsmith.com/applications/6098bdc65864501cc39c3d2f/pages/6098bdc65864501cc39c3d31)
 
-> A pragmatic CRM that helps founders keep track of the investor conversations they have had, and details about the investor, fund and files shared. You can use it to mark the next steps and prioritize conversations. We have found this system very useful personally for our fundraises. We chose to use a Google Sheets backend as that's where founders end up keeping these notes usually. You can just [authorize a sheet](https://docs.appsmith.com/how-to-guides/oauth2-authorization-for-google-sheets) to get it working.
+> A pragmatic CRM that helps founders keep track of the investor conversations they have had, and details about the investor, fund and files shared. You can use it to mark the next steps and prioritize conversations. We have found this system very useful personally for our fundraises. We chose to use a Google Sheets backend as that's where founders end up keeping these notes usually. You can just [authorize a sheet](https://docs.resolvebuilder.com/how-to-guides/oauth2-authorization-for-google-sheets) to get it working.
 > 
 
 Watch out for more! If you'd like to contribute a template, please write in to akshay@appsmith.com! 
