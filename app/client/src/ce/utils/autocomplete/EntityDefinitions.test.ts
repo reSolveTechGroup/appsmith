@@ -35,10 +35,10 @@ describe("EntityDefinitions", () => {
     const output = {
       "!doc":
         "Containers are used to group widgets together to form logical higher order widgets. Containers let you organize your page better and move all the widgets inside them together.",
-      "!url": "https://docs.appsmith.com/widget-reference/list",
+      "!url": "https://docs.resolvebuilder.com/widget-reference/list",
       backgroundColor: {
         "!type": "string",
-        "!url": "https://docs.appsmith.com/widget-reference/how-to-use-widgets",
+        "!url": "https://docs.resolvebuilder.com/widget-reference/how-to-use-widgets",
       },
       isVisible: {
         "!type": "bool",

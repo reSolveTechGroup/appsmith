@@ -38,7 +38,7 @@ Here, `Input1` is the name of the Input widget. `text` is the property of the In
 
 `{{ Input1.text.toLowerCase() }}`
 
-We can read more about `bindings` [here](https://docs.appsmith.com/core-concepts/writing-code).
+We can read more about `bindings` [here](https://docs.resolvebuilder.com/core-concepts/writing-code).
 
 ### Widget Action triggers
 
@@ -50,7 +50,7 @@ Example
 
 [actionTriggers.mov](assets/actionTriggers.mov)
 
-More on the platform provided action triggers can be found [here](https://docs.appsmith.com/framework-reference)
+More on the platform provided action triggers can be found [here](https://docs.resolvebuilder.com/framework-reference)
 
 We can also, `bind` entity properties here. For example,
 

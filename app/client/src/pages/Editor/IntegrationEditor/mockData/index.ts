@@ -9,7 +9,7 @@ export const mockPlugins = [
     packageName: PluginPackageName.POSTGRES,
     iconLocation: "https://assets.appsmith.com/logo/postgresql.svg",
     documentationLink:
-      "https://docs.appsmith.com/v/v1.2.1/datasource-reference/querying-postgres",
+      "https://docs.resolvebuilder.com/v/v1.2.1/datasource-reference/querying-postgres",
     responseType: "TABLE",
     uiComponent: "DbEditorForm",
     datasourceComponent: "AutoForm",

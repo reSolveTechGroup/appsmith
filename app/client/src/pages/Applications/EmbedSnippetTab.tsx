@@ -79,7 +79,7 @@ function EmbedSnippetTab() {
                   </TooltipComponent>
                 </div>
                 <StyledLink
-                  href="https://docs.appsmith.com/getting-started/setup/instance-configuration/frame-ancestors#why-should-i-control-this"
+                  href="https://docs.resolvebuilder.com/getting-started/setup/instance-configuration/frame-ancestors#why-should-i-control-this"
                   target="_blank"
                 >
                   <Text

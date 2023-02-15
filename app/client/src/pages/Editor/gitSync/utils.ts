@@ -78,9 +78,9 @@ export function changeInfoSinceLastCommit(
 }
 
 export const GIT_DOC_URLs = {
-  base: "https://docs.appsmith.com/advanced-concepts/version-control-with-git",
+  base: "https://docs.resolvebuilder.com/advanced-concepts/version-control-with-git",
   import:
-    "https://docs.appsmith.com/advanced-concepts/version-control-with-git/import-from-repository",
+    "https://docs.resolvebuilder.com/advanced-concepts/version-control-with-git/import-from-repository",
   connect:
-    "https://docs.appsmith.com/advanced-concepts/version-control-with-git/connecting-to-git-repository",
+    "https://docs.resolvebuilder.com/advanced-concepts/version-control-with-git/connecting-to-git-repository",
 };

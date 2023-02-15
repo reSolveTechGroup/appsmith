@@ -17,7 +17,7 @@ class IframeWidget extends BaseWidget<IframeWidgetProps, WidgetState> {
             helpText: "The URL of the page to embed",
             label: "URL",
             controlType: "INPUT_TEXT",
-            placeholderText: "https://docs.appsmith.com",
+            placeholderText: "https://docs.resolvebuilder.com",
             isBindProperty: true,
             isTriggerProperty: false,
             validation: {

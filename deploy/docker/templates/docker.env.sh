@@ -60,7 +60,7 @@ APPSMITH_MAIL_SMTP_TLS_ENABLED=
 
 # Disable all telemetry
 # Note: This only takes effect in self-hosted scenarios.
-# Please visit: https://docs.appsmith.com/telemetry to read more about anonymized data collected by Appsmith
+# Please visit: https://docs.resolvebuilder.com/telemetry to read more about anonymized data collected by Appsmith
 APPSMITH_DISABLE_TELEMETRY=false
 #APPSMITH_SENTRY_DSN=
 #APPSMITH_SENTRY_ENVIRONMENT=

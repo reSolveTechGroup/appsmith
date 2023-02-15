@@ -18,13 +18,13 @@ async function sendBackupErrorToAdmins(err, backupTimestamp) {
   console.log('Sending Error mail to admins.');
   try {
     if (!mailEnabled || !mailFrom || !mailHost || !mailPort || !mailUser || !mailPass) {
-      throw new Error('Failed to send error mail. Email provider is not configured, please refer to https://docs.appsmith.com/setup/instance-configuration/email to configure it.');
+      throw new Error('Failed to send error mail. Email provider is not configured, please refer to https://docs.resolvebuilder.com/setup/instance-configuration/email to configure it.');
     }
     else if (!mailTo) {
-      throw new Error('Failed to send error mail. Admin email(s) not configured, please refer to https://docs.appsmith.com/setup/instance-configuration/disable-user-signup#administrator-emails to configure it.');
+      throw new Error('Failed to send error mail. Admin email(s) not configured, please refer to https://docs.resolvebuilder.com/setup/instance-configuration/disable-user-signup#administrator-emails to configure it.');
     }
     else if (!mailEnabled) {
-      throw new Error('Mail not sent! APPSMITH_MAIL_ENABLED env val is disabled, please refer to https://docs.appsmith.com/setup/instance-configuration/email to enable it.');
+      throw new Error('Mail not sent! APPSMITH_MAIL_ENABLED env val is disabled, please refer to https://docs.resolvebuilder.com/setup/instance-configuration/email to enable it.');
     }
     else {
       const backupFiles = await utils.listLocalBackupFiles();

@@ -327,7 +327,7 @@ const HELP_MENU_ITEMS: HelpItem[] = [
   {
     icon: <StyledDocumentIcon color="#4b4848" height={14} width={14} />,
     label: "Documentation",
-    link: "https://docs.appsmith.com/",
+    link: "https://docs.resolvebuilder.com/",
   },
   {
     icon: <StyledGithubIcon color="#4b4848" height={14} width={14} />,

@@ -76,7 +76,7 @@ describe("Git sync modal: connect tab", function() {
     // Stubbing window.open
     cy.window().then((window) => {
       windowOpenSpy = cy.stub(window, "open").callsFake((url) => {
-        expect(url.startsWith("https://docs.appsmith.com/")).to.be.true;
+        expect(url.startsWith("https://docs.resolvebuilder.com/")).to.be.true;
         windowOpenSpy.restore();
       });
     });

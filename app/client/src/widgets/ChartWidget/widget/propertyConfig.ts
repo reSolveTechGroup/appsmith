@@ -57,7 +57,7 @@ export const contentConfig = [
         },
       },
       {
-        helpText: "Configure a Custom FusionChart see docs.appsmith.com",
+        helpText: "Configure a Custom FusionChart see docs.resolvebuilder.com",
         placeholderText: `Fusion Chart Config`,
         propertyName: "customFusionChartConfig",
         label: "Custom Fusion Chart",

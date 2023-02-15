@@ -101,7 +101,7 @@ export const ForgotPassword = (props: ForgotPasswordProps) => {
               {
                 linkElement: (
                   <a
-                    href="https://docs.appsmith.com/v/v1.2.1/setup/docker/email"
+                    href="https://docs.resolvebuilder.com/v/v1.2.1/setup/docker/email"
                     rel="noreferrer"
                     target="_blank"
                   >

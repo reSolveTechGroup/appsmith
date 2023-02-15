@@ -125,7 +125,7 @@ To log in to the Appsmith dashboard, follow these steps:
 Once you completed the registration, you will be moved to the Personal Workspace page. Now you can begin to create your custom app. 
 ![Appsmith Dashboard Page](./images/appsmith_dashboard.png)
 
-For more tutorials on how to create your custom app by Appsmith, please take a look at [https://docs.appsmith.com/](https://docs.appsmith.com/)
+For more tutorials on how to create your custom app by Appsmith, please take a look at [https://docs.resolvebuilder.com/](https://docs.resolvebuilder.com/)
 
 
 ## Step 6: Configure custom domain for your app
